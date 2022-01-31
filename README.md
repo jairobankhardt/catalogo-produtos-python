@@ -25,5 +25,6 @@ Ao usuário será disponibilizado as opções do seguinte menu para retorno das 
 ## Ferramentas utilizadas
 
 * PyCharm 2021.2 (Community Edition)
+* Site gitignore.io para geração do arquivo .gitignore
 * Git
 * GitHub
