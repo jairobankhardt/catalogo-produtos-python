@@ -110,7 +110,7 @@ def menu(dados):
             while opcao_categoria != "0":
                 lista_categorias_ordenada = sorted(listar_categorias(dados))
                 exibir_categorias(lista_categorias_ordenada)
-                opcao_categoria = input("Escolha uma categoria para exibir seus produtos "
+                opcao_categoria = input("Digite o número da categoria para exibir seus produtos "
                                         "(0 para voltar ao menu principal): ")
                 if not verifica_valor_digitado(opcao_categoria, len(lista_categorias_ordenada)):
                     continuar_com_enter()
@@ -124,7 +124,7 @@ def menu(dados):
             while opcao_categoria != "0":
                 lista_categorias_ordenada = sorted(listar_categorias(dados))
                 exibir_categorias(lista_categorias_ordenada)
-                opcao_categoria = input("Escolha uma categoria para exibir seu produto mais caro "
+                opcao_categoria = input("Digite o número da categoria para exibir seu produto mais caro "
                                         "(0 para voltar ao menu principal): ")
                 if not verifica_valor_digitado(opcao_categoria, len(lista_categorias_ordenada)):
                     continuar_com_enter()
@@ -139,7 +139,7 @@ def menu(dados):
             while opcao_categoria != "0":
                 lista_categorias_ordenada = sorted(listar_categorias(dados))
                 exibir_categorias(lista_categorias_ordenada)
-                opcao_categoria = input("Escolha uma categoria para exibir seu produto mais barato "
+                opcao_categoria = input("Digite o número da categoria para exibir seu produto mais barato "
                                         "(0 para voltar ao menu principal): ")
                 if not verifica_valor_digitado(opcao_categoria, len(lista_categorias_ordenada)):
                     continuar_com_enter()
