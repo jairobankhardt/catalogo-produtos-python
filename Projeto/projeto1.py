@@ -33,7 +33,7 @@ def listar_por_categoria(dados, categoria):
     """
     produtos = []
     for i in range(len(dados)):
-        if dados[i]["id"] not in produtos and dados[i]["categoria"] == categoria:
+        if dados[i]["categoria"] == categoria:
             produtos.append(dados[i])
     return produtos
     
